@@ -1,2 +1,2 @@
 # bird-song-assessment
-this is a game that I made for my university assessment, it's function is to produce sound when an image is clicked.
+this is a game that I made for my university assessment, it's function is to produce sound when an image is clicked. I used a selection of tools that I had learnt over the 13 week program at the University. I decided I wanted to create a game that used these elements and then made it interactive. Within my other pieces of work for the University, I have addressed elements of Nature. Therefore, I focused on this idea as the body of my work. I created an audio file that is a delayed bird song. This bird song is only played when the user choses to click within the parameters of the image on the screen. 
