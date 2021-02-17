@@ -1,0 +1,72 @@
+let song;
+let bg;
+let parrot;
+let monkey;
+let knock; 
+
+
+function preload (){
+ song = loadSound('birdsongsmall.mp3')
+parrot = loadImage('tropicalbird.jpg')
+  monkey = loadImage('nosemonkey.jpg')
+  knock = loadSound('knock.mp3')
+}
+
+function setup() {
+  createCanvas(400, 400);
+  //background(bg);
+  //textSize(32);
+  //text('click image to play', width/2-100, height/2);
+
+  //function setup(){
+  song = loadSound ('birdsongsmall.mp3')
+  parrot = loadImage ('tropicalbird.jpg');
+  bg = loadImage ('cloudsforp5.jpg')
+  monkey = loadImage('nosemonkey.jpg')
+  knock = loadSound('knock.mp3')
+  
+}
+
+function draw() {
+  background(bg);
+  textSize(16);
+  text('Click on image of bird for bird song', 50, 100);
+  //text('Click on monkey for knock', 50, 125);
+  rectMode(CENTER);
+  stroke(50);
+  rect(width/2, height/2,100,100);
+  imageMode(CENTER);
+  image(parrot,width/2,height/2,100,100);
+  rectMode(CENTER);
+  //rect(200,325,100,100);
+  //rect(350,100,50,50);
+  //rect(200,325,100,100);
+  //imageMode(CENTER)
+  //image(monkey,200,325,100,100);
+  //rect (100,100,100,100);
+  
+}
+
+//function draw(){
+  //rectMode(CORNER);
+  //rect(100,100,100,100);
+  
+ 
+
+
+
+function mousePressed () {
+  
+if (mouseX > 150 && mouseX < 250 && mouseY > 150 && mouseY <250 ) {
+  song.play();
+  
+//if (mouseX > 400 && mouseX < 300 && mouseY > 50 && mouseY <150) {
+    //knock.play();
+  }
+ 
+  
+   //else stop
+  //loadImage('parrotforp5.jpg')
+
+
+}
